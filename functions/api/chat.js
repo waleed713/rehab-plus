@@ -48,6 +48,7 @@ export const onRequestPost = route(async ({ request, env }) => {
   if (!env.GROQ_API_KEY)
     throw new HttpError(503, "Chat is not configured yet.");
 
+  const model = env.GROQ_MODEL || "openai/gpt-oss-20b";
   const ctrl = new AbortController();
   const timer = setTimeout(() => ctrl.abort(), 20_000);
   let res;
@@ -59,10 +60,13 @@ export const onRequestPost = route(async ({ request, env }) => {
         "content-type": "application/json",
       },
       body: JSON.stringify({
-        model: env.GROQ_MODEL || "llama-3.3-70b-versatile",
+        model,
         messages: [{ role: "system", content: systemPrompt(env) }, ...messages],
         temperature: 0.3,
-        max_tokens: 300,
+        // Reasoning models spend tokens thinking first, so keep thinking short and leave room for the reply.
+        ...(/gpt-oss/.test(model)
+          ? { reasoning_effort: "low", max_tokens: 1200 }
+          : { max_tokens: 400 }),
       }),
       signal: ctrl.signal,
     });
