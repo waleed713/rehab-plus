@@ -1,194 +1,476 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en" class="no-js">
-<head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Contact — RehabPlus</title>
-  <meta name="description" content="Contact RehabPlus. Send us a message, book an appointment or start a live chat with our team.">
-  <meta name="theme-color" content="#071D18">
-  <link rel="icon" type="image/png" href="assets/img/favicon.png">
-  <link rel="apple-touch-icon" href="assets/img/favicon.png">
-  <link rel="preload" href="assets/fonts/IvyMode-Regular.woff2" as="font" type="font/woff2" crossorigin>
-  <link rel="preload" href="assets/fonts/inter-latin-wght-normal.woff2" as="font" type="font/woff2" crossorigin>
-  <link rel="stylesheet" href="assets/vendor/fontawesome/css/fontawesome.min.css">
-  <link rel="stylesheet" href="assets/vendor/fontawesome/css/solid.min.css">
-  <link rel="stylesheet" href="assets/vendor/fontawesome/css/brands.min.css">
-  <link rel="stylesheet" href="style.css">
-  <script src="no-js.js"></script>
-</head>
-<body data-page="contact">
-  <a class="skip-link" href="#main">Skip to content</a>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Contact — RehabPlus</title>
+    <meta
+      name="description"
+      content="Contact RehabPlus. Send us a message, book an appointment or start a live chat with our team."
+    />
+    <meta name="theme-color" content="#071D18" />
+    <link rel="icon" type="image/png" href="assets/img/favicon.png" />
+    <link rel="apple-touch-icon" href="assets/img/favicon.png" />
+    <link
+      rel="preload"
+      href="assets/fonts/IvyMode-Regular.woff2"
+      as="font"
+      type="font/woff2"
+      crossorigin
+    />
+    <link
+      rel="preload"
+      href="assets/fonts/inter-latin-wght-normal.woff2"
+      as="font"
+      type="font/woff2"
+      crossorigin
+    />
+    <link
+      rel="stylesheet"
+      href="assets/vendor/fontawesome/css/fontawesome.min.css"
+    />
+    <link rel="stylesheet" href="assets/vendor/fontawesome/css/solid.min.css" />
+    <link
+      rel="stylesheet"
+      href="assets/vendor/fontawesome/css/brands.min.css"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <script src="no-js.js"></script>
+  </head>
+  <body data-page="contact">
+    <a class="skip-link" href="#main">Skip to content</a>
 
-  <header class="site-header" data-header>
-    <div class="container header-inner">
-      <a class="logo" href="index.html" aria-label="RehabPlus home"><img class="logo-img" src="assets/img/logo.png" alt="RehabPlus — Physical Therapy &amp; Rehabilitation" width="900" height="208"></a>
-      <nav id="primary-nav" class="primary-nav" aria-label="Primary">
-        <ul>
-          <li><a href="index.html">Home</a></li>
-          <li><a href="index.html#services">Services</a></li>
-          <li><a href="booking.html">Our Doctors</a></li>
-          <li><a href="index.html#about">About</a></li>
-          <li><a href="index.html#testimonials">Testimonials</a></li>
-          <li><a href="chat.html">Live Chat</a></li>
-          <li><a href="contact.html" aria-current="page">Contact</a></li>
-          <li class="nav-cta-mobile"><a class="btn btn-primary" href="booking.html">Book Appointment <i class="fa-solid fa-arrow-right" aria-hidden="true"></i></a></li>
-          <li class="nav-meta">
-            <a href="chat.html"><i class="fa-solid fa-comment-dots" aria-hidden="true"></i> Live chat</a>
-            <span data-cfg="clinic.phone" data-link="tel" data-icon="phone" data-fallback=""></span>
-            <span data-cfg="clinic.email" data-link="mailto" data-icon="envelope" data-fallback=""></span>
-          </li>
-        </ul>
-      </nav>
-      <a class="btn btn-outline btn-sm header-cta" href="booking.html">Book Appointment <i class="fa-solid fa-arrow-right" aria-hidden="true"></i></a>
-      <button class="nav-toggle" type="button" aria-expanded="false" aria-controls="primary-nav" aria-label="Open menu"><span></span><span></span><span></span></button>
-    </div>
-  </header>
-
-  <main id="main">
-    <section class="page-hero">
-      <div class="media"><img src="https://images.unsplash.com/photo-1630226040750-d934f017f0e4?auto=format&fit=crop&w=1400&q=75" srcset="https://images.unsplash.com/photo-1630226040750-d934f017f0e4?auto=format&fit=crop&w=900&q=75 900w, https://images.unsplash.com/photo-1630226040750-d934f017f0e4?auto=format&fit=crop&w=1400&q=75 1400w, https://images.unsplash.com/photo-1630226040750-d934f017f0e4?auto=format&fit=crop&w=2000&q=75 2000w" sizes="100vw" alt="A treatment bed in a calm, modern therapy room" fetchpriority="high" decoding="async" width="1920" height="600" referrerpolicy="no-referrer"></div>
-      <div class="container">
-        <h1>Contact us</h1>
-        <p>We'd love to hear from you. Get in touch with our team for any questions, appointments or support.</p>
-      </div>
-    </section>
-
-    <section class="contact-body on-light">
-      <div class="container contact-grid">
-        <div>
-          <ul class="info-list">
-            <li><span class="ic"><i class="fa-solid fa-location-dot" aria-hidden="true"></i></span><div><h3>Our Location</h3><p data-cfg="clinic.address">123 Health Drive, New York, NY 10001</p></div></li>
-            <li><span class="ic"><i class="fa-solid fa-phone" aria-hidden="true"></i></span><div><h3>Call Us</h3><p data-cfg="clinic.phone" data-link="tel"><a href="tel:+16465550142">0321 5459190</a></p><p data-cfg="clinic.hours">Mon – Sat, 8:00 AM – 8:00 PM</p></div></li>
-            <li><span class="ic"><i class="fa-solid fa-envelope" aria-hidden="true"></i></span><div><h3>Email Us</h3><p data-cfg="clinic.email" data-link="mailto"><a href="mailto:wa6901258@gmail.com">wa6901258@gmail.com</a></p></div></li>
-            <li><span class="ic"><i class="fa-solid fa-share-nodes" aria-hidden="true"></i></span><div><h3>Follow Us</h3><div class="socials" data-socials></div></div></li>
-          </ul>
-          <div class="contact-actions">
-            <a class="btn btn-dark" href="booking.html"><i class="fa-solid fa-calendar-check" aria-hidden="true"></i> Book Appointment</a>
-            <a class="btn btn-ghost-dark" href="chat.html"><i class="fa-solid fa-comment-dots" aria-hidden="true"></i> Live Chat</a>
-          </div>
-        </div>
-
-        <div class="form-panel panel" id="contact-form">
-          <h2>Send us a Message</h2>
-          <p class="sub">We'll get back to you as soon as we can.</p>
-          <div class="alert alert-info" data-mode-banner role="status"><i class="fa-solid fa-circle-info" aria-hidden="true"></i><span></span></div>
-          <div data-form-feedback aria-live="polite"></div>
-          <form data-contact-form novalidate>
-                <div class="hp" aria-hidden="true"><label>Leave this field empty <input type="text" name="website" tabindex="-1" autocomplete="off"></label></div>
-            <div class="field-row">
-              <div class="field"><label for="c-name">Full name</label><input id="c-name" name="name" type="text" autocomplete="name" required data-min="2"><p class="field-error" id="c-name-error" hidden></p></div>
-              <div class="field"><label for="c-email">Email address</label><input id="c-email" name="email" type="email" autocomplete="email" required><p class="field-error" id="c-email-error" hidden></p></div>
-            </div>
-            <div class="field"><label for="c-subject">Subject</label><input id="c-subject" name="subject" type="text" required data-min="3"><p class="field-error" id="c-subject-error" hidden></p></div>
-            <div class="field"><label for="c-message">Message</label><textarea id="c-message" name="message" maxlength="2000" required data-min="10"></textarea><p class="field-error" id="c-message-error" hidden></p></div>
-            <div class="field">
-              <label class="check"><input id="c-consent" type="checkbox" name="consent" required><span>I agree to the <a href="#privacy">privacy policy</a>.</span></label>
-              <p class="field-error" id="c-consent-error" hidden></p>
-            </div>
-            <button class="btn btn-dark" type="submit" data-submit>Send Message <i class="fa-solid fa-arrow-right" aria-hidden="true"></i></button>
-          </form>
-        </div>
-      </div>
-
-      <div class="map-box" data-map>
-        <iframe data-map-frame title="Map showing the clinic location" loading="lazy" referrerpolicy="no-referrer-when-downgrade" src="https://www.openstreetmap.org/export/embed.html?bbox=-74.0060%2C40.7380%2C-73.9660%2C40.7590&amp;layer=mapnik&amp;marker=40.7484%2C-73.9857"></iframe>
-        <div class="map-card">
-          <span class="map-pin"><i class="fa-solid fa-location-dot" aria-hidden="true"></i></span>
-          <div><strong>RehabPlus</strong><p data-cfg="clinic.address">123 Health Drive, New York, NY 10001</p></div>
-          <a class="btn btn-dark btn-sm" data-directions href="https://www.google.com/maps/dir/?api=1&amp;destination=40.7484,-73.9857" target="_blank" rel="noopener">Get Directions <i class="fa-solid fa-arrow-right" aria-hidden="true"></i></a>
-        </div>
-      </div>
-
-    </section>
-
-    <section class="section privacy on-light" id="privacy" aria-labelledby="privacy-title">
-      <div class="container privacy-grid">
-        <div>
-          <span class="eyebrow">Privacy</span>
-          <h2 class="h2" id="privacy-title">Privacy Policy &amp; Terms</h2>
-          <p class="demo-note" data-sample-note>This summary is a template. Have it reviewed by a legal professional for the regions you serve (for example HIPAA or GDPR) before launch.</p>
-        </div>
-        <div class="privacy-copy">
-          <h3>What we collect</h3>
-          <p>When you book an appointment, send a message or use the chat, we collect the details you enter: your name, email address, phone number, country, time zone and a short description of your concern.</p>
-          <h3>How we use it</h3>
-          <p>We use your details only to respond to your enquiry, arrange and confirm your appointment, and provide care. We do not sell your personal information.</p>
-          <h3>Chat assistant</h3>
-          <p>Our chat assistant is an AI tool. Messages you send are processed by an AI service to produce a reply. It cannot give medical advice and should not be used in an emergency. Please do not share sensitive medical records or ID numbers in chat.</p>
-          <h3>Your rights</h3>
-          <p>You can ask us to access, correct or delete your information at any time by emailing <span data-cfg="clinic.email" data-link="mailto"><a href="mailto:wa6901258@gmail.com">wa6901258@gmail.com</a></span>.</p>
-        </div>
-      </div>
-    </section>
-
-    <section class="contact-cta" aria-labelledby="cta-title">
-      <div class="container">
-        <h2 id="cta-title">Prefer to talk it through?</h2>
-        <div class="hero-actions">
-          <a class="btn btn-primary" href="booking.html">Book Appointment</a>
-          <a class="btn btn-outline" href="chat.html">Start Live Chat</a>
-        </div>
-      </div>
-    </section>
-  </main>
-
-  <footer class="site-footer">
-    <div class="container">
-      <div class="footer-grid">
-        <div class="footer-brand">
-          <a class="logo" href="index.html" aria-label="RehabPlus home"><img class="logo-img" src="assets/img/logo.png" alt="RehabPlus — Physical Therapy &amp; Rehabilitation" width="900" height="208"></a>
-          <p>Better movement. A healthier you.</p>
-          <div class="socials" data-socials></div>
-        </div>
-        <div>
-          <h4>Quick Links</h4>
-          <ul class="footer-links">
+    <header class="site-header" data-header>
+      <div class="container header-inner">
+        <a class="logo" href="index.html" aria-label="RehabPlus home"
+          ><img
+            class="logo-img"
+            src="assets/img/logo.png"
+            alt="RehabPlus — Physical Therapy &amp; Rehabilitation"
+            width="900"
+            height="208"
+        /></a>
+        <nav id="primary-nav" class="primary-nav" aria-label="Primary">
+          <ul>
             <li><a href="index.html">Home</a></li>
             <li><a href="index.html#services">Services</a></li>
             <li><a href="booking.html">Our Doctors</a></li>
             <li><a href="index.html#about">About</a></li>
             <li><a href="index.html#testimonials">Testimonials</a></li>
-            <li><a href="contact.html">Contact</a></li>
+            <li><a href="chat.html">Live Chat</a></li>
+            <li><a href="contact.html" aria-current="page">Contact</a></li>
+            <li class="nav-cta-mobile">
+              <a class="btn btn-primary" href="booking.html"
+                >Book Appointment
+                <i class="fa-solid fa-arrow-right" aria-hidden="true"></i
+              ></a>
+            </li>
+            <li class="nav-meta">
+              <a href="chat.html"
+                ><i class="fa-solid fa-comment-dots" aria-hidden="true"></i>
+                Live chat</a
+              >
+              <span
+                data-cfg="clinic.phone"
+                data-link="tel"
+                data-icon="phone"
+                data-fallback=""
+              ></span>
+              <span
+                data-cfg="clinic.email"
+                data-link="mailto"
+                data-icon="envelope"
+                data-fallback=""
+              ></span>
+            </li>
           </ul>
+        </nav>
+        <a class="btn btn-outline btn-sm header-cta" href="booking.html"
+          >Book Appointment
+          <i class="fa-solid fa-arrow-right" aria-hidden="true"></i
+        ></a>
+        <button
+          class="nav-toggle"
+          type="button"
+          aria-expanded="false"
+          aria-controls="primary-nav"
+          aria-label="Open menu"
+        >
+          <span></span><span></span><span></span>
+        </button>
+      </div>
+    </header>
+
+    <main id="main">
+      <section class="page-hero">
+        <div class="media">
+          <img
+            src="https://images.unsplash.com/photo-1630226040750-d934f017f0e4?auto=format&fit=crop&w=1400&q=75"
+            srcset="
+              https://images.unsplash.com/photo-1630226040750-d934f017f0e4?auto=format&fit=crop&w=900&q=75   900w,
+              https://images.unsplash.com/photo-1630226040750-d934f017f0e4?auto=format&fit=crop&w=1400&q=75 1400w,
+              https://images.unsplash.com/photo-1630226040750-d934f017f0e4?auto=format&fit=crop&w=2000&q=75 2000w
+            "
+            sizes="100vw"
+            alt="A treatment bed in a calm, modern therapy room"
+            fetchpriority="high"
+            decoding="async"
+            width="1920"
+            height="600"
+            referrerpolicy="no-referrer"
+          />
         </div>
-        <div>
-          <h4>Services</h4>
-          <ul class="footer-links">
-            <li><a href="index.html#services">Orthopedic Therapy</a></li>
-            <li><a href="index.html#services">Sports Injury Rehab</a></li>
-            <li><a href="index.html#services">Neurological Therapy</a></li>
-            <li><a href="index.html#services">Pediatric Therapy</a></li>
-            <li><a href="index.html#services">Geriatric Therapy</a></li>
-            <li><a href="index.html#services">Chronic Pain Management</a></li>
-          </ul>
+        <div class="container">
+          <h1>Contact us</h1>
+          <p>
+            We'd love to hear from you. Get in touch with our team for any
+            questions, appointments or support.
+          </p>
         </div>
-        <div>
-          <h4>Contact</h4>
-          <ul class="footer-contact">
-            <li><i class="fa-solid fa-location-dot" aria-hidden="true"></i><span data-cfg="clinic.address">123 Health Drive, New York, NY 10001</span></li>
-            <li><i class="fa-solid fa-phone" aria-hidden="true"></i><span data-cfg="clinic.phone" data-link="tel"><a href="tel:+16465550142">0321 5459190</a></span></li>
-            <li><i class="fa-solid fa-envelope" aria-hidden="true"></i><span data-cfg="clinic.email" data-link="mailto"><a href="mailto:wa6901258@gmail.com">wa6901258@gmail.com</a></span></li>
-          </ul>
+      </section>
+
+      <section class="contact-body on-light">
+        <div class="container contact-grid">
+          <div>
+            <ul class="info-list">
+              <li>
+                <span class="ic"
+                  ><i class="fa-solid fa-location-dot" aria-hidden="true"></i
+                ></span>
+                <div>
+                  <h3>Our Location</h3>
+                  <p data-cfg="clinic.address">
+                    123 Health Drive, New York, NY 10001
+                  </p>
+                </div>
+              </li>
+              <li>
+                <span class="ic"
+                  ><i class="fa-solid fa-phone" aria-hidden="true"></i
+                ></span>
+                <div>
+                  <h3>Call Us</h3>
+                  <p data-cfg="clinic.phone" data-link="tel">
+                    <a href="tel:+16465550142">0321 5459190</a>
+                  </p>
+                  <p data-cfg="clinic.hours">Mon – Sat, 8:00 AM – 8:00 PM</p>
+                </div>
+              </li>
+              <li>
+                <span class="ic"
+                  ><i class="fa-solid fa-envelope" aria-hidden="true"></i
+                ></span>
+                <div>
+                  <h3>Email Us</h3>
+                  <p data-cfg="clinic.email" data-link="mailto">
+                    <a href="mailto:wa6901258@gmail.com">wa6901258@gmail.com</a>
+                  </p>
+                </div>
+              </li>
+              <li>
+                <span class="ic"
+                  ><i class="fa-solid fa-share-nodes" aria-hidden="true"></i
+                ></span>
+                <div>
+                  <h3>Follow Us</h3>
+                  <div class="socials" data-socials></div>
+                </div>
+              </li>
+            </ul>
+            <div class="contact-actions">
+              <a class="btn btn-dark" href="booking.html"
+                ><i class="fa-solid fa-calendar-check" aria-hidden="true"></i>
+                Book Appointment</a
+              >
+              <a class="btn btn-ghost-dark" href="chat.html"
+                ><i class="fa-solid fa-comment-dots" aria-hidden="true"></i>
+                Live Chat</a
+              >
+            </div>
+          </div>
+
+          <div class="form-panel panel" id="contact-form">
+            <h2>Send us a Message</h2>
+            <p class="sub">We'll get back to you as soon as we can.</p>
+            <div class="alert alert-info" data-mode-banner role="status">
+              <i class="fa-solid fa-circle-info" aria-hidden="true"></i
+              ><span></span>
+            </div>
+            <div data-form-feedback aria-live="polite"></div>
+            <form data-contact-form novalidate>
+              <div class="hp" aria-hidden="true">
+                <label
+                  >Leave this field empty
+                  <input
+                    type="text"
+                    name="website"
+                    tabindex="-1"
+                    autocomplete="off"
+                /></label>
+              </div>
+              <div class="field-row">
+                <div class="field">
+                  <label for="c-name">Full name</label
+                  ><input
+                    id="c-name"
+                    name="name"
+                    type="text"
+                    autocomplete="name"
+                    required
+                    data-min="2"
+                  />
+                  <p class="field-error" id="c-name-error" hidden></p>
+                </div>
+                <div class="field">
+                  <label for="c-email">Email address</label
+                  ><input
+                    id="c-email"
+                    name="email"
+                    type="email"
+                    autocomplete="email"
+                    required
+                  />
+                  <p class="field-error" id="c-email-error" hidden></p>
+                </div>
+              </div>
+              <div class="field">
+                <label for="c-subject">Subject</label
+                ><input
+                  id="c-subject"
+                  name="subject"
+                  type="text"
+                  required
+                  data-min="3"
+                />
+                <p class="field-error" id="c-subject-error" hidden></p>
+              </div>
+              <div class="field">
+                <label for="c-message">Message</label
+                ><textarea
+                  id="c-message"
+                  name="message"
+                  maxlength="2000"
+                  required
+                  data-min="10"
+                ></textarea>
+                <p class="field-error" id="c-message-error" hidden></p>
+              </div>
+              <div class="field">
+                <label class="check"
+                  ><input
+                    id="c-consent"
+                    type="checkbox"
+                    name="consent"
+                    required
+                  /><span
+                    >I agree to the <a href="#privacy">privacy policy</a>.</span
+                  ></label
+                >
+                <p class="field-error" id="c-consent-error" hidden></p>
+              </div>
+              <button class="btn btn-dark" type="submit" data-submit>
+                Send Message
+                <i class="fa-solid fa-arrow-right" aria-hidden="true"></i>
+              </button>
+            </form>
+          </div>
+        </div>
+
+        <div class="map-box" data-map>
+          <iframe
+            data-map-frame
+            title="Map showing the clinic location"
+            loading="lazy"
+            referrerpolicy="no-referrer-when-downgrade"
+            src="https://www.openstreetmap.org/export/embed.html?bbox=-74.0060%2C40.7380%2C-73.9660%2C40.7590&amp;layer=mapnik&amp;marker=40.7484%2C-73.9857"
+          ></iframe>
+          <div class="map-card">
+            <span class="map-pin"
+              ><i class="fa-solid fa-location-dot" aria-hidden="true"></i
+            ></span>
+            <div>
+              <strong>RehabPlus</strong>
+              <p data-cfg="clinic.address">
+                123 Health Drive, New York, NY 10001
+              </p>
+            </div>
+            <a
+              class="btn btn-dark btn-sm"
+              data-directions
+              href="https://www.google.com/maps/dir/?api=1&amp;destination=40.7484,-73.9857"
+              target="_blank"
+              rel="noopener"
+              >Get Directions
+              <i class="fa-solid fa-arrow-right" aria-hidden="true"></i
+            ></a>
+          </div>
+        </div>
+      </section>
+
+      <section
+        class="section privacy on-light"
+        id="privacy"
+        aria-labelledby="privacy-title"
+      >
+        <div class="container privacy-grid">
+          <div>
+            <span class="eyebrow">Privacy</span>
+            <h2 class="h2" id="privacy-title">Privacy Policy &amp; Terms</h2>
+            <p class="demo-note" data-sample-note>
+              This summary is a template. Have it reviewed by a legal
+              professional for the regions you serve (for example HIPAA or GDPR)
+              before launch.
+            </p>
+          </div>
+          <div class="privacy-copy">
+            <h3>What we collect</h3>
+            <p>
+              When you book an appointment, send a message or use the chat, we
+              collect the details you enter: your name, email address, phone
+              number, country, time zone and a short description of your
+              concern.
+            </p>
+            <h3>How we use it</h3>
+            <p>
+              We use your details only to respond to your enquiry, arrange and
+              confirm your appointment, and provide care. We do not sell your
+              personal information.
+            </p>
+            <h3>Chat assistant</h3>
+            <p>
+              Our chat assistant is an AI tool. Messages you send are processed
+              by an AI service to produce a reply. It cannot give medical advice
+              and should not be used in an emergency. Please do not share
+              sensitive medical records or ID numbers in chat.
+            </p>
+            <h3>Your rights</h3>
+            <p>
+              You can ask us to access, correct or delete your information at
+              any time by emailing
+              <span data-cfg="clinic.email" data-link="mailto"
+                ><a href="mailto:wa6901258@gmail.com"
+                  >wa6901258@gmail.com</a
+                ></span
+              >.
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <section class="contact-cta" aria-labelledby="cta-title">
+        <div class="container">
+          <h2 id="cta-title">Prefer to talk it through?</h2>
+          <div class="hero-actions">
+            <a class="btn btn-primary" href="booking.html">Book Appointment</a>
+            <a class="btn btn-outline" href="chat.html">Start Live Chat</a>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <div class="container">
+        <div class="footer-grid">
+          <div class="footer-brand">
+            <a class="logo" href="index.html" aria-label="RehabPlus home"
+              ><img
+                class="logo-img"
+                src="assets/img/logo.png"
+                alt="RehabPlus — Physical Therapy &amp; Rehabilitation"
+                width="900"
+                height="208"
+            /></a>
+            <p>Better movement. A healthier you.</p>
+            <div class="socials" data-socials></div>
+          </div>
+          <div>
+            <h4>Quick Links</h4>
+            <ul class="footer-links">
+              <li><a href="index.html">Home</a></li>
+              <li><a href="index.html#services">Services</a></li>
+              <li><a href="booking.html">Our Doctors</a></li>
+              <li><a href="index.html#about">About</a></li>
+              <li><a href="index.html#testimonials">Testimonials</a></li>
+              <li><a href="contact.html">Contact</a></li>
+            </ul>
+          </div>
+          <div>
+            <h4>Services</h4>
+            <ul class="footer-links">
+              <li><a href="index.html#services">Orthopedic Therapy</a></li>
+              <li><a href="index.html#services">Sports Injury Rehab</a></li>
+              <li><a href="index.html#services">Neurological Therapy</a></li>
+              <li><a href="index.html#services">Pediatric Therapy</a></li>
+              <li><a href="index.html#services">Geriatric Therapy</a></li>
+              <li><a href="index.html#services">Chronic Pain Management</a></li>
+            </ul>
+          </div>
+          <div>
+            <h4>Contact</h4>
+            <ul class="footer-contact">
+              <li>
+                <i class="fa-solid fa-location-dot" aria-hidden="true"></i
+                ><span data-cfg="clinic.address"
+                  >123 Health Drive, New York, NY 10001</span
+                >
+              </li>
+              <li>
+                <i class="fa-solid fa-phone" aria-hidden="true"></i
+                ><span data-cfg="clinic.phone" data-link="tel"
+                  ><a href="tel:+16465550142">0321 5459190</a></span
+                >
+              </li>
+              <li>
+                <i class="fa-solid fa-envelope" aria-hidden="true"></i
+                ><span data-cfg="clinic.email" data-link="mailto"
+                  ><a href="mailto:wa6901258@gmail.com"
+                    >wa6901258@gmail.com</a
+                  ></span
+                >
+              </li>
+            </ul>
+          </div>
+        </div>
+        <div class="footer-bottom">
+          <span
+            >© <span data-year>2026</span> RehabPlus. All rights reserved.
+            Design by
+            <a
+              href="https://waleed-portfolio-site.vercel.app/"
+              target="_blank"
+              rel="noopener"
+              >Waleed</a
+            >.</span
+          >
+          <nav aria-label="Legal">
+            <a href="#privacy">Privacy Policy</a><a href="#privacy">Terms</a>
+          </nav>
         </div>
       </div>
-      <div class="footer-bottom">
-        <span>© <span data-year>2026</span> RehabPlus. All rights reserved. Design by <a href="https://waleed-portfolio-site.vercel.app/" target="_blank" rel="noopener">Waleed</a>.</span>
-        <nav aria-label="Legal"><a href="#privacy">Privacy Policy</a><a href="#privacy">Terms</a></nav>
+    </footer>
+
+    <div class="launcher" data-launcher>
+      <div class="launcher-panel" id="launcher-panel" hidden>
+        <h2>Need help?</h2>
+        <p>Chat with our assistant, or book directly.</p>
+        <a class="btn btn-primary" href="chat.html"
+          ><i class="fa-solid fa-comment-dots" aria-hidden="true"></i> Open Live
+          Chat</a
+        >
+        <a class="btn btn-outline" href="booking.html">Book Appointment</a>
       </div>
+      <button
+        class="launcher-btn"
+        type="button"
+        aria-expanded="false"
+        aria-controls="launcher-panel"
+        aria-label="Open chat options"
+      >
+        <i class="fa-solid fa-comment-dots" aria-hidden="true"></i>
+      </button>
     </div>
-  </footer>
 
-  <div class="launcher" data-launcher>
-    <div class="launcher-panel" id="launcher-panel" hidden>
-      <h2>Need help?</h2>
-      <p>Chat with our assistant, or book directly.</p>
-      <a class="btn btn-primary" href="chat.html"><i class="fa-solid fa-comment-dots" aria-hidden="true"></i> Open Live Chat</a>
-      <a class="btn btn-outline" href="booking.html">Book Appointment</a>
-    </div>
-    <button class="launcher-btn" type="button" aria-expanded="false" aria-controls="launcher-panel" aria-label="Open chat options"><i class="fa-solid fa-comment-dots" aria-hidden="true"></i></button>
-  </div>
-
-  <script src="config.js"></script>
-  <script src="script.js"></script>
-</body>
+    <script src="config.js"></script>
+    <script src="script.js"></script>
+  </body>
 </html>

@@ -1,100 +1,236 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en" class="no-js">
-<head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Live Chat — RehabPlus</title>
-  <meta name="description" content="Chat with the RehabPlus assistant for quick answers about our services and booking.">
-  <meta name="theme-color" content="#071D18">
-  <link rel="icon" type="image/png" href="assets/img/favicon.png">
-  <link rel="apple-touch-icon" href="assets/img/favicon.png">
-  <link rel="preload" href="assets/fonts/IvyMode-Regular.woff2" as="font" type="font/woff2" crossorigin>
-  <link rel="preload" href="assets/fonts/inter-latin-wght-normal.woff2" as="font" type="font/woff2" crossorigin>
-  <link rel="stylesheet" href="assets/vendor/fontawesome/css/fontawesome.min.css">
-  <link rel="stylesheet" href="assets/vendor/fontawesome/css/solid.min.css">
-  <link rel="stylesheet" href="assets/vendor/fontawesome/css/brands.min.css">
-  <link rel="stylesheet" href="style.css">
-  <script src="no-js.js"></script>
-</head>
-<body data-page="chat">
-  <a class="skip-link" href="#main">Skip to content</a>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Live Chat — RehabPlus</title>
+    <meta
+      name="description"
+      content="Chat with the RehabPlus assistant for quick answers about our services and booking."
+    />
+    <meta name="theme-color" content="#071D18" />
+    <link rel="icon" type="image/png" href="assets/img/favicon.png" />
+    <link rel="apple-touch-icon" href="assets/img/favicon.png" />
+    <link
+      rel="preload"
+      href="assets/fonts/IvyMode-Regular.woff2"
+      as="font"
+      type="font/woff2"
+      crossorigin
+    />
+    <link
+      rel="preload"
+      href="assets/fonts/inter-latin-wght-normal.woff2"
+      as="font"
+      type="font/woff2"
+      crossorigin
+    />
+    <link
+      rel="stylesheet"
+      href="assets/vendor/fontawesome/css/fontawesome.min.css"
+    />
+    <link rel="stylesheet" href="assets/vendor/fontawesome/css/solid.min.css" />
+    <link
+      rel="stylesheet"
+      href="assets/vendor/fontawesome/css/brands.min.css"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <script src="no-js.js"></script>
+  </head>
+  <body data-page="chat">
+    <a class="skip-link" href="#main">Skip to content</a>
 
-  <header class="site-header scrolled" data-header>
-    <div class="container header-inner">
-      <a class="logo" href="index.html" aria-label="RehabPlus home"><img class="logo-img" src="assets/img/logo.png" alt="RehabPlus — Physical Therapy &amp; Rehabilitation" width="900" height="208"></a>
-      <nav id="primary-nav" class="primary-nav" aria-label="Primary">
-        <ul>
-          <li><a href="index.html">Home</a></li>
-          <li><a href="index.html#services">Services</a></li>
-          <li><a href="booking.html">Our Doctors</a></li>
-          <li><a href="index.html#about">About</a></li>
-          <li><a href="index.html#testimonials">Testimonials</a></li>
-          <li><a href="chat.html" aria-current="page">Live Chat</a></li>
-          <li><a href="contact.html">Contact</a></li>
-          <li class="nav-cta-mobile"><a class="btn btn-primary" href="booking.html">Book Appointment <i class="fa-solid fa-arrow-right" aria-hidden="true"></i></a></li>
-          <li class="nav-meta">
-            <a href="chat.html"><i class="fa-solid fa-comment-dots" aria-hidden="true"></i> Live chat</a>
-            <span data-cfg="clinic.phone" data-link="tel" data-icon="phone" data-fallback=""></span>
-            <span data-cfg="clinic.email" data-link="mailto" data-icon="envelope" data-fallback=""></span>
-          </li>
-        </ul>
-      </nav>
-      <a class="btn btn-outline btn-sm header-cta" href="booking.html">Book Appointment <i class="fa-solid fa-arrow-right" aria-hidden="true"></i></a>
-      <button class="nav-toggle" type="button" aria-expanded="false" aria-controls="primary-nav" aria-label="Open menu"><span></span><span></span><span></span></button>
-    </div>
-  </header>
-
-  <main id="main" class="chat-page">
-    <div class="container">
-      <div class="chat-title">
-        <span class="eyebrow">Live Chat</span>
-        <h1>We're here to help.</h1>
-        <p>Ask our assistant about services and booking. For clinical advice, please book a consultation with one of our practitioners.</p>
+    <header class="site-header scrolled" data-header>
+      <div class="container header-inner">
+        <a class="logo" href="index.html" aria-label="RehabPlus home"
+          ><img
+            class="logo-img"
+            src="assets/img/logo.png"
+            alt="RehabPlus — Physical Therapy &amp; Rehabilitation"
+            width="900"
+            height="208"
+        /></a>
+        <nav id="primary-nav" class="primary-nav" aria-label="Primary">
+          <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="index.html#services">Services</a></li>
+            <li><a href="booking.html">Our Doctors</a></li>
+            <li><a href="index.html#about">About</a></li>
+            <li><a href="index.html#testimonials">Testimonials</a></li>
+            <li><a href="chat.html" aria-current="page">Live Chat</a></li>
+            <li><a href="contact.html">Contact</a></li>
+            <li class="nav-cta-mobile">
+              <a class="btn btn-primary" href="booking.html"
+                >Book Appointment
+                <i class="fa-solid fa-arrow-right" aria-hidden="true"></i
+              ></a>
+            </li>
+            <li class="nav-meta">
+              <a href="chat.html"
+                ><i class="fa-solid fa-comment-dots" aria-hidden="true"></i>
+                Live chat</a
+              >
+              <span
+                data-cfg="clinic.phone"
+                data-link="tel"
+                data-icon="phone"
+                data-fallback=""
+              ></span>
+              <span
+                data-cfg="clinic.email"
+                data-link="mailto"
+                data-icon="envelope"
+                data-fallback=""
+              ></span>
+            </li>
+          </ul>
+        </nav>
+        <a class="btn btn-outline btn-sm header-cta" href="booking.html"
+          >Book Appointment
+          <i class="fa-solid fa-arrow-right" aria-hidden="true"></i
+        ></a>
+        <button
+          class="nav-toggle"
+          type="button"
+          aria-expanded="false"
+          aria-controls="primary-nav"
+          aria-label="Open menu"
+        >
+          <span></span><span></span><span></span>
+        </button>
       </div>
+    </header>
 
-      <div class="chat-layout">
-        <section class="chat-window" aria-label="Chat" data-chat>
-          <div class="chat-top">
-            <span class="avatar"><i class="fa-solid fa-robot" aria-hidden="true"></i></span>
-            <div>
-              <strong>RehabPlus Assistant (AI)</strong>
-              <span class="status" data-chat-status>Checking…</span>
+    <main id="main" class="chat-page">
+      <div class="container">
+        <div class="chat-title">
+          <span class="eyebrow">Live Chat</span>
+          <h1>We're here to help.</h1>
+          <p>
+            Ask our assistant about services and booking. For clinical advice,
+            please book a consultation with one of our practitioners.
+          </p>
+        </div>
+
+        <div class="chat-layout">
+          <section class="chat-window" aria-label="Chat" data-chat>
+            <div class="chat-top">
+              <span class="avatar"
+                ><i class="fa-solid fa-robot" aria-hidden="true"></i
+              ></span>
+              <div>
+                <strong>RehabPlus Assistant (AI)</strong>
+                <span class="status" data-chat-status>Checking…</span>
+              </div>
+              <button
+                class="chip human-btn"
+                type="button"
+                data-human
+                aria-label="Talk to a human"
+              >
+                <i class="fa-solid fa-headset" aria-hidden="true"></i
+                ><span>Talk to a human</span>
+              </button>
             </div>
-            <button class="chip human-btn" type="button" data-human aria-label="Talk to a human"><i class="fa-solid fa-headset" aria-hidden="true"></i><span>Talk to a human</span></button>
-          </div>
-          <div class="chat-banner" data-chat-banner role="status"></div>
-          <div class="chat-log" data-chat-log role="log" aria-live="polite" aria-relevant="additions" tabindex="0"></div>
-          <div class="chat-quick" aria-label="Quick actions">
-            <a class="chip" href="booking.html"><i class="fa-solid fa-calendar-check" aria-hidden="true"></i> Book an Appointment</a>
-            <button class="chip" type="button" data-quick="ask"><i class="fa-solid fa-circle-question" aria-hidden="true"></i> Ask a Question</button>
-            <button class="chip" type="button" data-quick="info"><i class="fa-solid fa-circle-info" aria-hidden="true"></i> Therapy Information</button>
-          </div>
-          <form class="chat-form" data-chat-form autocomplete="off">
-            <label class="sr-only" for="chat-input">Type your message</label>
-            <input id="chat-input" type="text" name="message" placeholder="Type your message…" maxlength="500" required>
-            <button class="send-btn" type="submit" aria-label="Send message" data-send><i class="fa-solid fa-paper-plane" aria-hidden="true"></i></button>
-          </form>
-          <p class="chat-disclaimer">AI assistant — not a doctor, and not for emergencies. In an emergency contact your local emergency services.</p>
-        </section>
+            <div class="chat-banner" data-chat-banner role="status"></div>
+            <div
+              class="chat-log"
+              data-chat-log
+              role="log"
+              aria-live="polite"
+              aria-relevant="additions"
+              tabindex="0"
+            ></div>
+            <div class="chat-quick" aria-label="Quick actions">
+              <a class="chip" href="booking.html"
+                ><i class="fa-solid fa-calendar-check" aria-hidden="true"></i>
+                Book an Appointment</a
+              >
+              <button class="chip" type="button" data-quick="ask">
+                <i class="fa-solid fa-circle-question" aria-hidden="true"></i>
+                Ask a Question
+              </button>
+              <button class="chip" type="button" data-quick="info">
+                <i class="fa-solid fa-circle-info" aria-hidden="true"></i>
+                Therapy Information
+              </button>
+            </div>
+            <form class="chat-form" data-chat-form autocomplete="off">
+              <label class="sr-only" for="chat-input">Type your message</label>
+              <input
+                id="chat-input"
+                type="text"
+                name="message"
+                placeholder="Type your message…"
+                maxlength="500"
+                required
+              />
+              <button
+                class="send-btn"
+                type="submit"
+                aria-label="Send message"
+                data-send
+              >
+                <i class="fa-solid fa-paper-plane" aria-hidden="true"></i>
+              </button>
+            </form>
+            <p class="chat-disclaimer">
+              AI assistant — not a doctor, and not for emergencies. In an
+              emergency contact your local emergency services.
+            </p>
+          </section>
 
-        <aside class="chat-side" aria-label="Chat help">
-          <div class="side-card">
-            <h2>How this chat works</h2>
-            <ul class="feat-list">
-              <li><span class="trust-icon"><i class="fa-solid fa-bolt" aria-hidden="true"></i></span><div><strong>Fast answers</strong><small>Ask about our services, how booking works and what to expect.</small></div></li>
-              <li><span class="trust-icon"><i class="fa-solid fa-stethoscope" aria-hidden="true"></i></span><div><strong>Clinical advice from clinicians</strong><small>The assistant can't diagnose or recommend treatment. Book a consultation for that.</small></div></li>
-              <li><span class="trust-icon"><i class="fa-solid fa-lock" aria-hidden="true"></i></span><div><strong>Keep it private</strong><small>Please don't share sensitive medical records or ID numbers in chat.</small></div></li>
-            </ul>
-          </div>
-          <div class="side-card faq" data-faq>
-            <h2>Frequently asked questions</h2>
-          </div>
-        </aside>
+          <aside class="chat-side" aria-label="Chat help">
+            <div class="side-card">
+              <h2>How this chat works</h2>
+              <ul class="feat-list">
+                <li>
+                  <span class="trust-icon"
+                    ><i class="fa-solid fa-bolt" aria-hidden="true"></i
+                  ></span>
+                  <div>
+                    <strong>Fast answers</strong
+                    ><small
+                      >Ask about our services, how booking works and what to
+                      expect.</small
+                    >
+                  </div>
+                </li>
+                <li>
+                  <span class="trust-icon"
+                    ><i class="fa-solid fa-stethoscope" aria-hidden="true"></i
+                  ></span>
+                  <div>
+                    <strong>Clinical advice from clinicians</strong
+                    ><small
+                      >The assistant can't diagnose or recommend treatment. Book
+                      a consultation for that.</small
+                    >
+                  </div>
+                </li>
+                <li>
+                  <span class="trust-icon"
+                    ><i class="fa-solid fa-lock" aria-hidden="true"></i
+                  ></span>
+                  <div>
+                    <strong>Keep it private</strong
+                    ><small
+                      >Please don't share sensitive medical records or ID
+                      numbers in chat.</small
+                    >
+                  </div>
+                </li>
+              </ul>
+            </div>
+            <div class="side-card faq" data-faq>
+              <h2>Frequently asked questions</h2>
+            </div>
+          </aside>
+        </div>
       </div>
-    </div>
-  </main>
+    </main>
 
-  <script src="config.js"></script>
-  <script src="script.js"></script>
-</body>
+    <script src="config.js"></script>
+    <script src="script.js"></script>
+  </body>
 </html>
