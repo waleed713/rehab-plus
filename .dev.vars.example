@@ -1,0 +1,6 @@
+# Copy to .dev.vars (git-ignored) for local development with `npm run dev`.
+# These are SECRETS. Never commit them and never paste them into chat or front-end code.
+SUPABASE_URL=https://YOUR-PROJECT.supabase.co
+SUPABASE_SERVICE_ROLE_KEY=
+RESEND_API_KEY=
+GROQ_API_KEY=

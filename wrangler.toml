@@ -1,0 +1,18 @@
+name = "rehabplus"
+compatibility_date = "2025-01-01"
+pages_build_output_dir = "./public"
+
+# Non-secret settings. Secrets (keys) are NOT stored here: see README.md ("Secrets").
+[vars]
+CLINIC_NAME = "RehabPlus"
+CLINIC_TZ = "Asia/Karachi"
+CLINIC_ADDRESS = "Society Office, Shop 1 Dr Asghar Qadir St, G Block 2, Block 2 P.E.C.H.S., Karachi"
+CLINIC_PHONE = "0321 5459190"
+CLINIC_HOURS = "Mon - Sat, 8:00 AM - 8:00 PM"
+CLINIC_EMAIL = "wa6901258@gmail.com"
+EMAIL_FROM = "RehabPlus <bookings@rehabplus.com>"
+GROQ_MODEL = "llama-3.3-70b-versatile"
+AUTO_CONFIRM = "true"
+SLOT_LEAD_HOURS = "4"
+BOOKING_WINDOW_DAYS = "90"
+# ALLOWED_ORIGIN = "https://www.your-domain.com"   # only needed if the site is served from another origin
